@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background: #161616;
+    color: #ccc;
+}
+
+header {
+    height: 60vh;
+    background: #56f;
+}
+
+.super-links {
+    text-decoration: none;
+    color: #aaa;
+    text-align: center;
+    padding-bottom: .5rem;
+    border-bottom: 4px solid #56f;
+}
+
+.super-links p {
+    margin: 0;
+}
+
+.super-links:hover {
+    color: white;
+}
+
+.maldito-boton:hover {
+    background: #343a40;
+    color: white;
+    border-radius: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    border-bottom: 4px solid #56f;
+    color: #aaa;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.maldito-boton-2:hover {
+    background: #343a40;
+    color: white;
+    border-radius: 10px;
+}
+
+@media (min-width: 56.25rem) {
+    header {
+        height: 60vh;
+    }
+}
